@@ -49,13 +49,15 @@ const Hero = () => {
         >
           {/* <motion.h2 variants={textVariants}>HARVEY TYLER</motion.h2> */}
           <motion.h1 variants={textVariants}>
-            AI-Driven Web & IoT Developer
+            From Sensors to Software
+            <br />
+            We Build It All
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
-              See the Latest Works
+              See Our Work
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants}>Partner With Us</motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
@@ -71,10 +73,18 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Writer Content Creator Influencer
+       We Design, Build, and Ship
       </motion.div>
       <div className="imageContainer">
-        <img src={import.meta.env.BASE_URL +"./kakashi.png"} alt="" />
+      <video
+          src="/video.mp4"       
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover object-right"  // adjust as needed
+        />
+        {/* <img src={import.meta.env.BASE_URL +"./right.png"} alt="" /> */}
       </div>
     </div>
   );

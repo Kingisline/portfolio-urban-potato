@@ -45,14 +45,14 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{color:"orange"}}>End-to-End Tech, </motion.b> 
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            <motion.b whileHover={{color:"orange"}}>From Idea to Product.</motion.b> 
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>What We Build?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -60,9 +60,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>IoT Projects - eg.raspi</h2>
+          <h2>AI & LLM Solutions</h2>
           <p>
-          Created a motion-based controller using an MPU6050 sensor and Arduino. Used tilt angles to control movement in games like Minecraft. Learned mouse emulation, angle math, and real-time input mapping.
+          Custom AI agents, LLM integrations, and ML models tailored to your product.
           </p>
           <button>Go</button>
         </motion.div>
@@ -70,9 +70,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Gyroscopic Game Controller with MPU6050</h2>
+          <h2>IoT & Embedded Systems</h2>
           <p>
-          Created a motion-based controller using an MPU6050 sensor and Arduino. Used tilt angles to control movement in games like Minecraft. Learned mouse emulation, angle math, and real-time input mapping.
+          Connected hardware, sensors, and firmware — from prototype to production."
           </p>
           <button>Go</button>
         </motion.div>
@@ -80,9 +80,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>ML Integration on Edge Devices</h2>
+          <h2>Web Development</h2>
           <p>
-          Built a wearable device using ESP32 and MAX30102 to measure pulse and oxygen levels. Applied machine learning to predict real-time stress levels and alert users when thresholds are exceeded.
+          Fast, scalable websites and web apps built with modern stacks.
           </p>
           <button>Go</button>
         </motion.div>
@@ -90,9 +90,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>App Development & Automation</h2>
+          <h2>Mobile App Development</h2>
           <p>
-          Developed a local music player app in Java for Android. The app scans device storage and features playback control, album art, volume slider, and real-time progress adjustment functionality.
+          Native and cross-platform apps designed for real users.
           </p>
           <button>Go</button>
         </motion.div>
