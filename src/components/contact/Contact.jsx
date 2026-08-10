@@ -31,10 +31,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_th7ci5g",
-        "template_2880piu",
+        "service_depxx5r",    //service_amuigk4
+        "template_nm3urbs",
         formRef.current,
-        "3Ku_jOrur4LhKUj5f"
+        "YyjTMfx5GRWem6rUe"
       )
       .then(
         (result) => {
@@ -58,11 +58,11 @@ const Contact = () => {
         <motion.h1 variants={variants}>Let's Build Together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
-         <a href="mailto:kalaivananchelladurai@gmail.com"> <span>kalaivananchelladurai@gmail.com</span></a>
+         <a href="mailto:kalaivananchelladurai@outlook.com"> <span>kalaivananchelladurai@outlook.com</span></a>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Linked In</h2>
-          <a href="https://www.linkedin.com/in/kalaivanan-c-86a140285/"><span>Kalaivanan</span></a>
+          <a href="https://www.linkedin.com/in/kalaivanan-c/"><span>Kalaivanan</span></a>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
@@ -107,8 +107,8 @@ const Contact = () => {
           transition={{ delay: 4, duration: 1 }}
         >
           <input type="text" required placeholder="Name" name="name"/>
-          <input type="email" required placeholder="Email" name="email"/>
-          <textarea rows={8} placeholder="Message" name="message"/>
+          {/* <input type="email" placeholder="Email (Optional)" name="email"/> */}
+          <textarea rows={8} required placeholder="Message" name="message"/>
           <button>Submit</button>
           {error && "Error"}
           {success && "Success"}
