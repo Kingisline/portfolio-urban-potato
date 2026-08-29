@@ -13,7 +13,9 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          URBAN POTATO
+          {/* --______--  <br></br> */}
+        _A_K_L_ <br></br>
+          {/* __------__ */}
         </motion.span>
 
         <div className="social">
