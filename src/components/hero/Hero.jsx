@@ -76,14 +76,14 @@ const Hero = () => {
        We Design, Build, and Ship
       </motion.div>
       <div className="imageContainer">
-      <video
+      {/* <video
           src="/video.mp4"       
           autoPlay
           loop
           muted
           playsInline
           className="w-full h-full object-cover object-right"  // adjust as needed
-        />
+        /> */}
         {/* <img src={import.meta.env.BASE_URL +"./right.png"} alt="" /> */}
       </div>
     </div>
